@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>position property</title>
+    <style>
+        div{
+            height: 70px;
+            width: 70px;
+            background-color: red;
+            border: 5px solid black;
+            margin: 20px;
+        }
+        #first{
+            position: static;
+        }
+        #first2{
+            position: relative;
+            top: 10px;
+            left: 60px;
+        }
+        #first3{
+            position: fixed;
+        }
+        #first4{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="first">static</div>
+    <div id="first2">relative</div>
+    <div id="first3">fixed</div>
+    <div id="first4">absolute</div>
+</body>
+</html>
