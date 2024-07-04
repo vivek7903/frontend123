@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>objects</title>
+</head>
+<body>
+    <script>
+        // let product ={
+        //     company : 'apple',
+        //     price : 200000,
+        //     'item_name' : 'iphone 12 pro max'
+        // };
+
+        // console.log(product);
+        // console.log(product.company);
+
+        // product.price = '38000';
+        // console.log(product);
+
+        // console.log(product['item_name'])
+        // delete product.company;
+        // console.log(product);
+
+        // adding function to object
+
+
+
+        let product ={
+            company : 'apple',
+            price : 200000,
+            'item_name' : 'iphone 12 pro max',
+            displayPrice : function(){
+                console.log(`your product price is ${this.price}`)
+            }
+        };
+
+        product.displayPrice();
+    </script>
+</body>
+</html>

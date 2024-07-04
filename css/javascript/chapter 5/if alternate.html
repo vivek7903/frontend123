@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age =21 ;
+        let result = (age > 18) ? 'Adult' : 'kid';
+        console.log(result);
+        
+// guard operator if value is not given the use default value
+        // let finalAge = age || 18;
+        // console.log(age);
+        // console.log(finalAge);
+
+        // default operator
+        let finalAge = age ?? 18;
+        console.log(age);
+        console.log(finalAge);
+    </script>
+</body>
+</html>
